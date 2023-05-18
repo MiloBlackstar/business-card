@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+  padding: 40px;
+  overflow-x: hidden;
+}
+
+main {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 317px;
+  height: 780px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  border-radius: 15px;
+}
+
+.image-container {
+  height: 317px;
+  width: 317px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.user-img {
+  width: 317px;
+  height: 317px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.content {
+  text-align: center;
+  background-color: #1A1B21;
+}
+
+.content .name {
+  font-size: 25px;
+  color: #FFF;
+  font-weight: 700;
+  margin-top: 21px;
+  margin-bottom: 7px;
+}
+
+.content .title {
+  color: #F3BF99;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.content .website {
+  color: #F5F5F5;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.button-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 33px;
+}
+
+.button-space p, span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-space span {
+  margin-right: 8px;
+}
+
+.button-space .email-btn {
+  width: 115px;
+  padding: 9px 13px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 17px;
+  border-radius: 6px;
+  border: none;
+  transition: opacity 0.15s
+}
+
+.email-btn:hover {
+  opacity: 0.9;
+}
+
+.email-btn:active {
+  opacity: 0.8;
+}
+
+.button-space .linkedin-btn {
+  width: 115px;
+  padding: 9px 13px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 500;
+  background-color: #5093E2;
+  border: none;
+  border-radius: 6px;
+  transition: opacity 0.15s;
+}
+
+.linkedin-btn:hover {
+  opacity: 0.9;
+}
+
+.linkedin-btn:active {
+  opacity: 0.8;
+}
+
+.about-me-space {
+  padding: 0px 34px;
+}
+
+.about-me-space h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #F5F5F5;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.about-me-space p {
+  font-size: 10px;
+  color: #DCDCDC;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 27px;
+  text-align: left;
+}
+
+.footer {
+  background-color: #161619;
+  width: 317px;
+  height: 64px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer .twt, .fb, .ig{
+  margin-right: 24px;
+}
